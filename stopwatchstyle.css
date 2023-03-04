@@ -1,0 +1,144 @@
+html {
+    background: url(image.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+/*
+.container{
+    padding: 30px ;
+    border-radius: 10px;
+    margin-top: 15px;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(1.5px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    transition: all 0.3s;
+     justify-content: center;
+    align-items: center;
+    height: 200px;
+}*/
+
+
+.btn {
+    padding: 13px 35px;
+    border-radius: 5px;
+    color: #050505;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(1.5px);
+    font-family: 'Space Mono', monospace;
+}
+.control {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+    margin-left: 0%;
+}
+.btn:active {
+    box-shadow: none;
+}
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 100px;
+    color: #000000;
+}
+
+.number {
+    position: relative;
+    font-size: 1000px;
+    font-weight: 400;
+    line-height: 1;
+    color: #000000;
+}
+
+.watch {
+    width: 100%;
+    max-width: 800px;
+    padding: 60px;
+    border-radius: 10px;
+    color: #000000;
+    background-color: #e3e3e346;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+     justify-content: center;
+    align-items: center;
+  
+
+    
+
+}
+h1 {
+    color: #310306;
+
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+    
+    font-size: 50px;
+    text-shadow: #261414;
+    
+
+    
+}
+.backbtn{
+    justify-self: center;
+    align-self: center;
+    font-size: 19px;
+    margin-left: 0px;
+    margin-top: 500px;
+    display: flex;
+    
+
+
+}
+.nav{
+    margin-top: 500px;
+    margin-left: 0;
+    justify-self: center;
+    align-self: center;
+    padding: 0%;
+
+}
+p{
+    color: #310306;
+
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+    
+    font-size: 50px;
+    text-shadow: #261414;
+
+}
+
+
